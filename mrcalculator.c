@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
+#include <stdlib.h>
 int main()
 {
     int ope, a, b, sum, sub, mul, div, rem, i, esum=0, f=1;
@@ -155,8 +157,11 @@ int main()
     printf("-------------------------------------\n");
     printf("-: Thanks For Using Mr. Calculator :-\n");
     printf("-------------------------------------\n");
-
-
+    int check;
+    printf("Enter '1' for restart calculator '0' for exit: ");
+    scanf("%d",&check);
+    check == 1 ? main():exit(0);
+    getch();
     return 0;
 }
 
