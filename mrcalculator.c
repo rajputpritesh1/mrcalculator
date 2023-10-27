@@ -14,7 +14,7 @@ int main()
     printf("1. Add\n2. Sub\n3. Multiply\n4. Div\n5. Add of all Even Number given range\n6. Add of all odd Number given range\n7. Factor\n8. Which is Greater\n9. Power\n10. Root\n:"); 
     scanf("%d",&ope); 
  
-    // Addition 
+    // Addition 1
     if(ope==1) 
     { 
     printf("You Select Add\n"); 
@@ -26,7 +26,7 @@ int main()
     printf("Sum = %d", sum); 
     } 
  
-    // Subtraction 
+    // Subtraction 2
     else if(ope==2) 
     { 
     printf("You Select Sub\n"); 
